@@ -1,9 +1,9 @@
-##Project Description:
+## Project Description:
 Develop an asynchronous email delivery service using NestJS and RabbitMQ that accepts email requests via API and processes them through background workers.
 
-##Functional Requirements:
+## Functional Requirements:
 
-Provide a POST /email/send endpoint that accepts to, subject, text or html fields.
+Provide a POST ```/email/send``` endpoint that accepts to, subject, text or html fields.
 
 Validate incoming data using class-validator.
 
@@ -19,5 +19,5 @@ Use Mailtrap for testing email delivery.
 
 (Optional) Store logs or email history in PostgreSQL.
 
-##Expected Outcome:
+## Expected Outcome:
 A working backend-only service with a documented API endpoint, functional queue-based email processing, proper error handling, and tested email delivery through SMTP.
